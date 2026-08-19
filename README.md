@@ -202,11 +202,3 @@ Select Configurations: Use the dropdowns and sliders on the web interface to sel
 Click Predict: Hit the "💰 Predict Price" button.
 
 Get Instant Results: The app will display the estimated fair market price for that specific configuration.
-
-🚧 Future Scope & Improvements
-I plan to enhance this project further to make it production-grade:
-
-□ Deploy on Cloud: Host the app on AWS EC2, Heroku, or Streamlit Cloud for public access.
-□ Database Integration: Save user queries and actual prices to continuously retrain the model (Active Learning).
-□ Real-time Scraping: Integrate an API (e.g., Amazon/Flipkart) to scrape live prices and update the dataset automatically.
-□ Advanced Feature Engineering: Add 'Release Year', 'Battery Life', and 'Screen Type' (Touch/Non-Touch) to improve accuracy.
