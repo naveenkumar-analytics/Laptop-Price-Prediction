@@ -5,7 +5,7 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3+-orange.svg)](https://scikit-learn.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-1.7+-brightgreen.svg)](https://xgboost.readthedocs.io/)
 
-> **A production-ready, high-accuracy Laptop Price Predictor leveraging a Stacking Ensemble (RandomForest + GBDT + XGBoost + Ridge) with automated feature preprocessing, deployed via Streamlit.**
+A production-ready, high-accuracy Laptop Price Predictor leveraging a Stacking Ensemble (RandomForest + GBDT + XGBoost + Ridge) with automated feature preprocessing, deployed via Streamlit.**
 
 ---
 
