@@ -126,15 +126,6 @@ This project follows a standard industry-grade ML pipeline:
 | **Visualization** | Matplotlib, Seaborn (for EDA) |
 | **Environment** | Python 3.8+ |
 
----
-
-## 📸 Live Demo / Screenshot
-
-*(⚠️ **Action Required**: Replace this with an actual screenshot of your Streamlit app running. Recruiters love visual proof!)*
-
-![App Screenshot](assets/app_screenshot.png)  <!-- Create an 'assets' folder and put your image there -->
-
----
 
 ## 📂 Dataset & Features
 
@@ -191,7 +182,7 @@ Prerequisites: Ensure you have Python 3.8+ installed.
 Clone the repository:
 
 
-git clone https://github.com/yourusername/laptop-price-predictor.git
+git clone https://github.com/naveenkumar-analytics/laptop-price-predictor.git
 cd laptop-price-predictor
 Install the dependencies:
 
