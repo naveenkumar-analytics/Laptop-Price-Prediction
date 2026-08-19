@@ -182,3 +182,40 @@ laptop-price-predictor/
 │   └── training.ipynb
 └── assets/               # Images & screenshots for the README
     └── app_screenshot.png
+
+⚙️ Installation & Setup (Run Locally)
+Follow these steps to get the project running on your local machine.
+
+Prerequisites: Ensure you have Python 3.8+ installed.
+
+Clone the repository:
+
+
+git clone https://github.com/yourusername/laptop-price-predictor.git
+cd laptop-price-predictor
+Install the dependencies:
+
+
+pip install -r requirements.txt
+(This installs Streamlit, Scikit-learn, Pandas, NumPy, and Joblib).
+
+Run the application:
+
+
+streamlit run app.py
+Open your browser and go to http://localhost:8501 to start predicting!
+
+🖱️ How to Use the App
+Select Configurations: Use the dropdowns and sliders on the web interface to select your laptop's brand, RAM, storage, processor, etc.
+
+Click Predict: Hit the "💰 Predict Price" button.
+
+Get Instant Results: The app will display the estimated fair market price for that specific configuration.
+
+🚧 Future Scope & Improvements
+I plan to enhance this project further to make it production-grade:
+
+□ Deploy on Cloud: Host the app on AWS EC2, Heroku, or Streamlit Cloud for public access.
+□ Database Integration: Save user queries and actual prices to continuously retrain the model (Active Learning).
+□ Real-time Scraping: Integrate an API (e.g., Amazon/Flipkart) to scrape live prices and update the dataset automatically.
+□ Advanced Feature Engineering: Add 'Release Year', 'Battery Life', and 'Screen Type' (Touch/Non-Touch) to improve accuracy.
